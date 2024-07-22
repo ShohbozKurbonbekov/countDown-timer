@@ -64,12 +64,9 @@ span {
   border-radius: 5px;
   color: #283618;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   html {
-    font-size: 48%;
-  }
-  main {
-    padding: 0 4rem;
+    font-size: 59%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -80,8 +77,13 @@ span {
     padding: 0 4rem;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   html {
-    font-size: 59%;
+    font-size: 48%;
   }
+  main {
+    padding: 0 4rem;
+  }
+   grid-template-columns: repeat(2, 1fr);
 }
+
