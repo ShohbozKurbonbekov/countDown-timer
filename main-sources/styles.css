@@ -1,0 +1,87 @@
+/**
+* ! removing and changing the default values =>
+**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+/**
+* ! whole countDown styles are here =>
+**/
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #283618;
+}
+main {
+  padding: 0 2rem;
+}
+.center {
+  max-width: 70rem;
+  width: 100%;
+  min-width: 250px;
+  margin: auto;
+  padding-top: 6rem;
+  text-align: center;
+}
+.countDown-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+  padding-top: 2rem;
+}
+h1 {
+  font-size: 4.1rem;
+  line-height: 7rem;
+  font-weight: 500;
+}
+.big-number {
+  font-size: 4.7rem;
+}
+span {
+  font-size: 1.7rem;
+  color: #757775;
+  font-weight: 600;
+}
+.btn {
+  margin-top: 4rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.6rem;
+  outline: none;
+  border: 2px solid#283618;
+  border-radius: 5px;
+  color: #283618;
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 48%;
+  }
+  main {
+    padding: 0 4rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 53%;
+  }
+  main {
+    padding: 0 4rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 59%;
+  }
+}
